@@ -1,6 +1,6 @@
 # 🧠 Employee Turnover Prediction
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alkoj/ala-k-mod1-atsiskaitymas/blob/main/Employee_turnover.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alkoj/Employee-turnover/blob/main/Employee_turnover.ipynb)
 
 ## 🎯 Project Goal
 
