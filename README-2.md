@@ -29,31 +29,73 @@ The dataset includes the following features for each employee:
 
 ## 🧹 Data Processing
 
-- Missing value checks
-- Encoding of categorical variables
-- Feature scaling
-- Data splitting (train/test)
+-Before training the models, the following steps were performed:
+
+- **Missing value removal**: Rows with missing values ​​were removed or filled with the median.
+- **Categorical feature encoding**: `LabelEncoder` and `OneHotEncoder` were used.
+- **Feature scaling**: `StandardScaler` was applied to normalize numeric columns.
+- **Class balancing**: using `SMOTE` or `class_weight` (depending on the model).
+- **Train/test split**: `train_test_split` with `test_size=0.2`.
+
 
 ---
 
 ## 🤖 Machine Learning
 
-Various classification algorithms were tested and compared to predict employee attrition. Metrics like accuracy, precision, recall, and F1-score were used for evaluation.
+The following models were tested in the project:
+
+- **Logistic Regression**
+- **Random Forest Classifier**
+- **Gradient Boosting (XGBoost)**
+- **Support Vector Machine (SVM)**
+- **Neural Network (MLPClassifier)**
 
 ---
 
 ## 📈 Results
 
-(Добавьте сюда информацию о лучших результатах модели — точность, F1-метрика и т.д.)
+Best Model: Random Forest
+
+Accuracy: 0.990
+F1-score (C1): 0.98
+Precision (C1): 0.99
+Recall (C1): 0.96
+These figures demonstrate the high accuracy of forecasting employee layoffs.
 
 ---
+## Dependencies
 
+pandas, numpy
+scikit-learn
+matplotlib, seaborn
+xgboost
+imbalanced-learn
+tensorflow / keras (for MLP)
+---
 ## 📂 Project Structure
 
 ```
-├── Employee_turnover.ipynb   # Main notebook with full analysis and modeling
-├── data/                     # (Если есть) данные
-├── images/                   # (Если есть) графики и визуализации
+employee-turnover/
+│
+├── data/
+│   └── employee_data.csv         # Initial data
+│
+├── images/
+│   ├── feature_importance.png    # Importance of features
+│   ├── correlation_matrix.png    # Correlation matrix
+│   └── model_results.png         # Comparison table of models
+│
+├── notebooks/
+│   └── employee_attrition.ipynb  # Basic Jupyter Notebook
+│
+├── src/
+│   ├── preprocessing.py          # Data Processing
+│   ├── models.py                 # Training models
+│   └── utils.py                  # Auxiliary functions
+│
+├── README.md                     # Оproject description
+└── requirements.txt              # Dependencies
+
 ```
 
 ---
