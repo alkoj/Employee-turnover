@@ -65,12 +65,14 @@ These figures demonstrate the high accuracy of forecasting employee layoffs.
 ---
 ## Dependencies
 
-pandas, numpy
-scikit-learn
-matplotlib, seaborn
-xgboost
-imbalanced-learn
-tensorflow / keras (for MLP)
+
+PANDAS, NUMPY
+SCIKIT-LEARN
+MATPLOTLIB, SEABORN
+XGBOOST
+IMBALANCED-LEARN
+TENSORFLOW / KERAS (FOR MLP)
+
 ---
 ## 📂 Project Structure
 
