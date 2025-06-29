@@ -55,23 +55,22 @@ The following models were tested in the project:
 ## 📈 Results
 
 Best Model: Random Forest
-
-Accuracy: 0.990
-F1-score (C1): 0.98
-Precision (C1): 0.99
-Recall (C1): 0.96
+**Accuracy: 0.99
+**F1-score (C1): 0.99
+**Precision (C1): 0.99
+**Recall (C1): 0.96
 These figures demonstrate the high accuracy of forecasting employee layoffs.
 
 ---
 ## Dependencies
 
 
-PANDAS, NUMPY
-SCIKIT-LEARN
-MATPLOTLIB, SEABORN
-XGBOOST
-IMBALANCED-LEARN
-TENSORFLOW / KERAS (FOR MLP)
+**PANDAS, NUMPY
+**SCIKIT-LEARN
+**MATPLOTLIB, SEABORN
+**XGBOOST
+**IMBALANCED-LEARN
+**TENSORFLOW / KERAS (FOR MLP)
 
 ---
 ## 📂 Project Structure
